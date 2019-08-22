@@ -1,0 +1,5 @@
+requests==2.22.0
+ftfy==4.4.3
+tqdm==4.31.1
+pandas==0.24.2
+beautifulsoup4==4.7.1
