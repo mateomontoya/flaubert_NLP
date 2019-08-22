@@ -12,3 +12,6 @@ The original HTML data had many complex tags in it, allowing us to separate out 
 
 Staying with the eight different drafts of *Madame Bovary*, the initial analysis primarily compares similarities and differences between the different versions. This encompasses word choice, sentence length, quantity of edits and strike throughs made, and several other factors.
 
+## Stylometry
+
+## Digital Humanities
