@@ -1,6 +1,6 @@
 # Flaubert Digital Humanities -- Analyzing Edits to Style and Grammar of the Eight Different Drafts of *Madame Bovary* by Flaubert
 
-A Natural Language Processing project working on the 8 different drafts on Flaubert's Madame Bovary and assessing changes in style, grammar, and word choice.
+A Digital Humanities and Natural Language Processing project working on the 8 different drafts on Flaubert's Madame Bovary and assessing changes in style, grammar, and word choice.
 
 ## The Data
 
@@ -14,4 +14,4 @@ Staying with the eight different drafts of *Madame Bovary*, the initial analysis
 
 ## Stylometry
 
-## Digital Humanities
+## Practicing Digital Humanities
