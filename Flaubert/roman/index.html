@@ -1,0 +1,580 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title> dition des manuscrits de Madame Bovary de Flaubert | Transcriptions | Classement g n tique</title>
+	<meta name="Description" content="Edition int grale sur le web des manuscrits de Madame Bovary, recherche plein texte dans les transcriptions des manuscrits, affichage des folios num ris s et de leur transcription, navigation dans la chronologie de la r daction du roman par le tableau g n tique.">
+	<meta name="Keywords" content="Gustave Flaubert, Flaubert, madame bovary, Emma Bovary, Emma, manuscrit, manuscrits , transcription, transcriptions, gen se, g n tique,  dition g n tique, num risation, brouillons">
+	<meta name="Language" content="fr">
+	<meta name="Rating" content="general">
+	<meta name="Distribution" content="global">
+	<meta name="Robots" content="INDEX,FOLLOW">
+	<meta name="Revisit-after" content="15 days">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link href="msbovary.css" rel="stylesheet" type="text/css">	
+ 	<link rel="stylesheet" href="style_bovary/public.css" type="text/css">
+	<script language="JavaScript" type="text/javascript" src="jet/lib_js/affichage.js"></script>
+	<script language="JavaScript" type="text/javascript" src="jet/lib_js/fenetres.js"></script>	
+	<script language="JavaScript" type="text/JavaScript">
+		var v = null;
+		function folio_visu( folio, selrech )
+		{
+url = 'folio_visu.php?folio=' + folio + '&mode=sequence&mot=' + selrech;
+				if( InternetExplorer && v ) v.close();
+				v = window.open( url, 'visufol','directories=no,location=no,menubar=no,toolbar=no,resizable=yes' );
+				v.focus();
+					}
+		function plein_ecran( type, page )
+		{
+			if( type == 'plan' ) org = 6; else org = 5;
+			url = 'folio_visu.php?ret=0&mode=sequence&org=' + org + '&seq=' + page;
+			if( InternetExplorer && v ) v.close();
+			v = window.open( url, 'visufol','directories=no,location=no,menubar=no,toolbar=no,resizable=yes' );
+			v.focus();
+		}
+	</script>
+</head>
+<body style="overflow:hidden; margin-left:5px">
+<form id=f method=post name=f >
+<script type="text/javascript" src="jet/lib_js/m_tmp/menu_bov.js"></script>	
+<script type="text/javascript" src="jet/lib_js/menu/browser.js"></script>
+<script type="text/javascript" src="jet/lib_js/menu/msb_menu.js"></script>
+<div style="position:absolute; left:5px; top:350px; height:170px; width:90px; text-align:center; background-color:#F5F4F4">
+<a href="http://bibliotheque.rouen.fr"><img src="images/commun/logobib.jpg" style="padding-bottom:5px"></a>
+	<a href="http://www.univ-rouen.fr"><img src="images/commun/logo_univ_rouen_90.jpg"></a>
+	<a href="http://ceredi.labos.univ-rouen.fr/main/" ><img src="images/commun/logo_ceredi_90.jpg"></a>
+	<a href="http://flaubert.univ-rouen.fr"><img src="images/commun/logo_centre_flaubert_90.jpg"></a>
+	<img src="images/commun/logo_region_haute_normpandie.jpg"  style="padding:5px 0px">
+	<img src="images/commun/logo_irshs.jpg">
+</div>
+<table cellspacing="0" width="100%" height="100%" bgcolor="#F5F4F4"><tr height="100%"><td width="270px" bgcolor="#F5F4F4">
+<table width="270" height="100%" align="left" cellspacing="0" bgcolor="#F5F4F4"><tr>
+	<td width="90" rowspan="2" valign="bottom" bgcolor="#F5F4F4"><table width="90" height="100%" cellspacing="0">
+		<tr height="40">
+			<td width="90" align="center"><table width="90" height="40" cellspacing="0">
+				<tr><td></td></tr>
+				<tr><td height="40" bgcolor="#D9DCD9"><div id="sommaire" class="menucol" style="vertical-align:top; padding:12px 0px 0px 4px"><a 
+					href="index.html" target="_top" class="menucol">SOMMAIRE</a>&nbsp;<img 
+						src="images/visu/ico_flb1.gif" width="10" height="7" align="absmiddle"></div></td></tr>
+			</table></td>
+		</tr>
+	</table></td>
+	<td width="90" height="150" valign="top" bgcolor="#F6F6EA"> <table width="90" height="150" cellspacing="0">
+		<tr><td width="90" height="24"><div id="menu1" align="center" class="menucol"></div></td></tr>
+		<tr><td width="90" height="126">&nbsp;</td></tr>
+	</table></td>
+	<td width="105" height="150" valign="top" bgcolor="#E2DED3"> <table width="105" height="150" cellspacing="0">
+		<tr><td width="105" height="40"> <div id="menu2" align="center" class="menucol"></div></td></tr>
+		<tr><td width="105" height="111">&nbsp;</td></tr>
+	</table></td>
+</tr><tr>
+	<td width="90" bgcolor="#F6F6EA">&nbsp;</td>
+	<td width="105" bgcolor="#E2DED3">&nbsp;</td>
+</tr></table>
+</td><td>
+<div style="position:relative; top:0px; left:0px; display:block; overflow:auto; height:100%; width:100%;">
+<table cellspacing="0"><tr><td><img src="images/commun/logo_tete.jpg"></td></tr><tr><td>
+<div style="position:absolute; top:150px; left:0px;"><table width="530" border="0" cellpadding="0" cellspacing="0" bgcolor="#F5F4F4">
+  <tr> 
+    <td width="90">&nbsp;</td>
+    <td height="35"><div align="right"><font class="txtnoir"><a name="haut" id="haut"></a>Parties 
+        : <font color="#759DEC"><a href="#partie1" class="txtnoir">1</a></font> | 
+        <font color="#759DEC"><a href="#partie2" class="txtnoir">2</a></font> | <font color="#759DEC"><a href="#partie3" class="txtnoir">3</a>&nbsp;&nbsp;</font></font></div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td height="35"><img src="images/commun/puce1.gif" width="11" height="11" align="absmiddle"> 
+      <font class="tsec1"> &nbsp;&nbsp;&nbsp;&nbsp;Choisissez un passage du roman 
+      :</font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td valign="top"><table width="90%" border="0" align="center">
+        <tr> 
+          <td> <p><font class="txtnoir"><br />
+              <a name="partie1" id="partie1"></a><a class="txtnoir" href="roman_visuep_rep_001.html"><b>Premi&egrave;re 
+              partie </b></a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_001.html">Chapitre 
+              I<br>
+              </a> 1 - <a class="txtnoir" href="roman_visuep_rep_001.html">Entr&eacute;e 
+              de Charles au coll&egrave;ge</a><br>
+              2 - <a class="txtnoir" href="roman_visuep_rep_005.html">Enfance 
+              de Charles</a><br>
+              3 - <a class="txtnoir" href="roman_visuep_rep_013.html">&Eacute;tudes 
+              au coll&egrave;ge</a><br>
+              4 - <a class="txtnoir" href="roman_visuep_rep_016.html">&Eacute;tudes 
+              de m&eacute;decine</a> <br>
+              5 - <a class="txtnoir" href="roman_visuep_rep_021.html">Examens 
+              et premier mariage</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_025.html">Chapitre 
+              2</a><br>
+              6 - <a class="txtnoir" href="roman_visuep_rep_025.html">Charles 
+              appel&eacute; aux Bertaux</a> <br>
+              7 - <a class="txtnoir" href="roman_visuep_rep_029.html">Rencontre 
+              d'Emma</a><br>
+              8 - <a class="txtnoir" href="roman_visuep_rep_032.html">La cravache 
+              de Charles</a> <br>
+              9 - <a class="txtnoir" href="roman_visuep_rep_037.html">Jalousie 
+              de Mme Bovary-Dubuc</a> <br>
+              10 - <a class="txtnoir" href="roman_visuep_rep_040.html">Mort de 
+              Mme Bovary-Dubuc</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_043.html">Chapitre 
+              3</a><br>
+              11 - <a class="txtnoir" href="roman_visuep_rep_043.html">Retour 
+              de Charles aux Bertaux</a> <br>
+              12 - <a class="txtnoir" href="roman_visuep_rep_045.html">Visites 
+              r&eacute;guli&egrave;res de Charles aux Bertaux</a> <br>
+              13 - <a class="txtnoir" href="roman_visuep_rep_047.html">Charles 
+              retrouve Emma</a> <br>
+              14 - <a class="txtnoir" href="roman_visuep_rep_050.html">Demande 
+              en mariage</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_054.html">Chapitre 
+              4</a><br>
+              15 - <a class="txtnoir" href="roman_visuep_rep_054.html">La noce</a> 
+              <br>
+              16 - <a class="txtnoir" href="roman_visuep_rep_058.html">Repas 
+              de noces</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_062.html">Chapitre 
+              5</a><br>
+              17 - <a class="txtnoir" href="roman_visuep_rep_062.html">Maison 
+              de Tostes</a><br>
+              18 - <a class="txtnoir" href="roman_visuep_rep_065.html">Am&eacute;nagement 
+              de la maison</a><br>
+              19 - <a class="txtnoir" href="roman_visuep_rep_067.html">Bonheur 
+              de Charles</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_070.html">Chapitre 
+              6</a><br>
+              20 - <a class="txtnoir" href="roman_visuep_rep_070.html">Enfance 
+              d'Emma et entr&eacute;e au couvent</a><br>
+              21 - <a class="txtnoir" href="roman_visuep_rep_074.html">Lectures 
+              clandestines</a><br>
+              22 - <a class="txtnoir" href="roman_visuep_rep_077.html">D&eacute;part 
+              du couvent</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_080.html">Chapitre 
+              7</a><br>
+              23 - <a class="txtnoir" href="roman_visuep_rep_080.html">Premi&egrave;res 
+              d&eacute;sillusions d'Emma</a><br>
+              24 - <a class="txtnoir" href="roman_visuep_rep_082.html">Occupations 
+              d'Emma</a><br>
+              25 - <a class="txtnoir" href="roman_visuep_rep_084.html">Habitudes 
+              de Charles</a><br>
+              26 - <a class="txtnoir" href="roman_visuep_rep_087.html">Mme Bovary 
+              m&egrave;re &agrave; Tostes</a><br>
+              27 - <a class="txtnoir" href="roman_visuep_rep_090.html">La levrette 
+              Djali</a><br>
+              28 - <a class="txtnoir" href="roman_visuep_rep_093.html">Regrets 
+              de s'&ecirc;tre mari&eacute;e</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_096.html">Chapitre 
+              8</a><br>
+              29 - <a class="txtnoir" href="roman_visuep_rep_096.html">La Vaubyessard 
+              : description du ch&acirc;teau</a><br>
+              30 - <a class="txtnoir" href="roman_visuep_rep_099.html">D&eacute;but 
+              du bal</a> <br>
+              31 - <a class="txtnoir" href="roman_visuep_rep_103.html">Conversation</a><br>
+              32 - <a class="txtnoir" href="roman_visuep_rep_106.html">Le billet 
+              dans le chapeau</a><br>
+              33 - <a class="txtnoir" href="roman_visuep_rep_109.html">Valse avec 
+              le vicomte</a><br>
+              34 - <a class="txtnoir" href="roman_visuep_rep_114.html">Le lendemain 
+              du bal</a><br>
+              35 - <a class="txtnoir" href="roman_visuep_rep_116.html">D&eacute;part 
+              de la Vaubyessard</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_120.html">Chapitre 
+              9</a><br>
+              36 - <a class="txtnoir" href="roman_visuep_rep_120.html">Image du 
+              vicomte</a><br>
+              37 - <a class="txtnoir" href="roman_visuep_rep_122.html">R&ecirc;ves 
+              de Paris</a><br>
+              38 - <a class="txtnoir" href="roman_visuep_rep_123.html">Go&ucirc;ts 
+              de luxe</a><br>
+              39 - <a class="txtnoir" href="roman_visuep_rep_125.html">Prosp&eacute;rit&eacute; 
+              de Charles</a><br>
+              40 - <a class="txtnoir" href="roman_visuep_rep_127.html">Irritation 
+              contre Charles et attente d'un &eacute;v&eacute;nement</a><br>
+              41 - <a class="txtnoir" href="roman_visuep_rep_129.html">&Eacute;touffement 
+              et tristesse</a><br>
+              42 - <a class="txtnoir" href="roman_visuep_rep_131.html">Haine de 
+              Tostes</a><br>
+              43 - <a class="txtnoir" href="roman_visuep_rep_133.html">Le joueur 
+              d'orgue</a><br>
+              44 - <a class="txtnoir" href="roman_visuep_rep_135.html">Exaltation 
+              et langueur</a><br>
+              45 - <a class="txtnoir" href="roman_visuep_rep_136.html">D&eacute;part 
+              de Tostes</a><br>
+              </font></p></td>
+          <td valign="bottom"><a href="#haut"><font face="Times New Roman" size="3"><img border="0" src="images/f_haut.gif" width="12" height="12" /></font></a></td>
+        </tr>
+        <tr> 
+          <td> <p><font class="txtnoir"><br />
+              <b><a name="partie2" id="partie2"></a><a class="txtnoir" href="roman_visuep_rep_139.html">Deuxi&egrave;me 
+              partie</a> &nbsp;</b></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_139.html">Chapitre 
+              1</a><br>
+              46 - <a class="txtnoir" href="roman_visuep_rep_139.html">Description 
+              d'Yonville</a> <br>
+              47 - <a class="txtnoir" href="roman_visuep_rep_143.html">L'auberge 
+              du Lion d'or</a> <br>
+              48 - <a class="txtnoir" href="roman_visuep_rep_146.html">Pr&eacute;sentation 
+              de Homais</a> <br>
+              49 - <a class="txtnoir" href="roman_visuep_rep_148.html">Binet - 
+              L&eacute;on</a> <br>
+              50 - <a class="txtnoir" href="roman_visuep_rep_150.html">Le cur&eacute;</a><br>
+              51 - <a class="txtnoir" href="roman_visuep_rep_152.html">Arriv&eacute;e 
+              de l'Hirondelle</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_154.html">Chapitre 
+              2</a><br>
+              52 - <a class="txtnoir" href="roman_visuep_rep_154.html">Arriv&eacute;e 
+              des Bovary</a> <br>
+              53 - <a class="txtnoir" href="roman_visuep_rep_157.html">Discours 
+              d'Homais sur le climat</a> <br>
+              54 - <a class="txtnoir" href="roman_visuep_rep_159.html">Conversation 
+              entre Emma et L&eacute;on </a> <br>
+              55 - <a class="txtnoir" href="roman_visuep_rep_165.html">Maison 
+              des Bovary, la nuit</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_167.html">Chapitre 
+              3</a><br>
+              56 - <a class="txtnoir" href="roman_visuep_rep_167.html">Pr&eacute;sentation 
+              de L&eacute;on</a> <br>
+              57 - <a class="txtnoir" href="roman_visuep_rep_170.html">Homais 
+              : pratique ill&eacute;gale de la m&eacute;decine</a><br>
+              58 - <a class="txtnoir" href="roman_visuep_rep_172.html">La client&egrave;le 
+              ne vient pas</a> <br>
+              59 - <a class="txtnoir" href="roman_visuep_rep_174.html">Accouchement 
+              d'Emma</a> <br>
+              60 - <a class="txtnoir" href="roman_visuep_rep_176.html">Bapt&ecirc;me 
+              de Berthe</a> <br>
+              61 - <a class="txtnoir" href="roman_visuep_rep_179.html">En allant 
+              chez la nourrice</a> <br>
+              62 - <a class="txtnoir" href="roman_visuep_rep_182.html">Visite 
+              chez la nourrice</a><br>
+              63 - <a class="txtnoir" href="roman_visuep_rep_186.html">Emma - 
+              L&eacute;on : retour &agrave; Yonville</a> <br>
+              64 - <a class="txtnoir" href="roman_visuep_rep_189.html">Ennui 
+              de L&eacute;on &agrave; Yonville</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_191.html">Chapitre 
+              4</a><br>
+              65 - <a class="txtnoir" href="roman_visuep_rep_191.html">L&eacute;on 
+              sous les fen&ecirc;tres d'Emma</a><br>
+              66 - <a class="txtnoir" href="roman_visuep_rep_194.html">Soir&eacute;es 
+              chez Homais</a> <br>
+              67 - <a class="txtnoir" href="roman_visuep_rep_197.html">Cadeaux 
+              entre L&eacute;on et Emma</a> <br>
+              68 - <a class="txtnoir" href="roman_visuep_rep_200.html">L&eacute;on 
+              h&eacute;site &agrave; se d&eacute;clarer</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_203.html">Chapitre 
+              5</a><br>
+              69 - <a class="txtnoir" href="roman_visuep_rep_203.html">Visite 
+              &agrave; la fabrique</a> <br>
+              70 - <a class="txtnoir" href="roman_visuep_rep_206.html">Emma compare 
+              L&eacute;on &agrave; Charles</a> <br>
+              71 - <a class="txtnoir" href="roman_visuep_rep_208.html">Emma se 
+              d&eacute;couvre amoureuse de L&eacute;on</a> <br>
+              72 - <a class="txtnoir" href="roman_visuep_rep_211.html">Visite 
+              de Lheureux</a><br>
+              73 - <a class="txtnoir" href="roman_visuep_rep_213.html">Arriv&eacute;e 
+              de L&eacute;on</a> <br>
+              74 - <a class="txtnoir" href="roman_visuep_rep_214.html">Attitude 
+              vertueuse d'Emma</a> <br>
+              75 - <a class="txtnoir" href="roman_visuep_rep_216.html">Calme apparent 
+              d'Emma</a> <br>
+              76 - <a class="txtnoir" href="roman_visuep_rep_219.html">Exasp&eacute;ration 
+              contre Charles</a> </font></p>
+            <p> <font class="txtnoir"> <a class="txtnoir" href="roman_visuep_rep_221.html">Chapitre 
+              6</a><br>
+              77 - <a class="txtnoir" href="roman_visuep_rep_221.html">Emma arrive 
+              &agrave; l'&eacute;glise</a><br>
+              78 - <a class="txtnoir" href="roman_visuep_rep_223.html">Conversation 
+              avec le cur&eacute;</a><br>
+              79 - <a class="txtnoir" href="roman_visuep_rep_228.html">Emma blesse 
+              sa fille</a> <br>
+              80 - <a class="txtnoir" href="roman_visuep_rep_230.html">Discours 
+              d'Homais sur l'&eacute;ducation</a> <br>
+              81 - <a class="txtnoir" href="roman_visuep_rep_232.html">Lassitude 
+              de L&eacute;on</a><br>
+              82 - <a class="txtnoir" href="roman_visuep_rep_234.html">L&eacute;on 
+              r&ecirc;ve de Paris</a> <br>
+              83 - <a class="txtnoir" href="roman_visuep_rep_236.html">D&eacute;part 
+              de L&eacute;on</a> <br>
+              84 - <a class="txtnoir" href="roman_visuep_rep_239.html">Clich&eacute;s 
+              d'Homais sur Paris</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_242.html">Chapitre 
+              7</a><br>
+              85 - <a class="txtnoir" href="roman_visuep_rep_242.html">Souvenir 
+              de L&eacute;on</a><br>
+              86 - <a class="txtnoir" href="roman_visuep_rep_244.html">Contrecoup 
+              du d&eacute;part de L&eacute;on</a> <br>
+              87 - <a class="txtnoir" href="roman_visuep_rep_246.html">Malaises 
+              d'Emma</a><br>
+              88 - <a class="txtnoir" href="roman_visuep_rep_248.html">Homais 
+              et Mme Bovary m&egrave;re parlent d'Emma</a> <br>
+              89 - <a class="txtnoir" href="roman_visuep_rep_251.html">March&eacute; 
+              &agrave; Yonville</a><br>
+              90 - <a class="txtnoir" href="roman_visuep_rep_254.html">Premi&egrave;re 
+              apparition de Rodolphe</a> <br>
+              91 - <a class="txtnoir" href="roman_visuep_rep_256.html">Saign&eacute;e 
+              du paysan</a> <br>
+              92 - <a class="txtnoir" href="roman_visuep_rep_258.html">Rodolphe 
+              d&eacute;cide de s&eacute;duire Emma</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_260.html">Chapitre 
+              8</a><br>
+              93 - <a class="txtnoir" href="roman_visuep_rep_260.html">Les Comices 
+              agricoles</a><br>
+              94 - <a class="txtnoir" href="roman_visuep_rep_268.html">Arriv&eacute;e 
+              du Conseiller</a><br>
+              95 - <a class="txtnoir" href="roman_visuep_rep_270.html">Discours 
+              </a><br>
+              96 - <a class="txtnoir" href="roman_visuep_rep_275.html">&Eacute;moi 
+              d'Emma</a><br>
+              97 - <a class="txtnoir" href="roman_visuep_rep_277.html">Remise 
+              des prix - Rodolphe prend la main d'Emma</a><br>
+              98 - <a class="txtnoir" href="roman_visuep_rep_280.html">F&ecirc;te 
+              finale</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_283.html">Chapitre 
+              9</a><br>
+              99 - <a class="txtnoir" href="roman_visuep_rep_283.html">Retour 
+              de Rodolphe</a> <br>
+              100 - <a class="txtnoir" href="roman_visuep_rep_285.html">Rodolphe 
+              commence sa cour</a> <br>
+              101 - <a class="txtnoir" href="roman_visuep_rep_286.html">Promenade 
+              &agrave; cheval</a> <br>
+              102 - <a class="txtnoir" href="roman_visuep_rep_288.html">Vers la 
+              &quot;baisade&quot;</a><br>
+              103 - <a class="txtnoir" href="roman_visuep_rep_290.html">La &quot;baisade&quot; 
+              dans les bois</a> <br>
+              104 - <a class="txtnoir" href="roman_visuep_rep_292.html">Rencontre 
+              dans la hutte</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_293.html"> 
+              Chapitre 10</a><br>
+              105 - <a class="txtnoir" href="roman_visuep_rep_293.html">Les rendez-vous 
+              chez Rodolphe</a> <br>
+              106 - <a class="txtnoir" href="roman_visuep_rep_295.html">Binet 
+              dans son tonneau</a> <br>
+              107 - <a class="txtnoir" href="roman_visuep_rep_296.html">Binet 
+              et Emma chez Homais</a><br>
+              108 - <a class="txtnoir" href="roman_visuep_rep_298.html">Les rendez-vous 
+              sous la tonnelle</a> <br>
+              109 - <a class="txtnoir" href="roman_visuep_rep_300.html">Lassitude 
+              de Rodolphe</a><br>
+              110 - <a class="txtnoir" href="roman_visuep_rep_301.html">La lettre 
+              du p&egrave;re Rouault</a> <br>
+              111 - <a class="txtnoir" href="roman_visuep_rep_303.html">Regret 
+              du pass&eacute;</a><br>
+              112 - <a class="txtnoir" href="roman_visuep_rep_304.html">Emma se 
+              repent</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_305.html">Chapitre 
+              11</a><br>
+              113 - <a class="txtnoir" href="roman_visuep_rep_305.html">Charles 
+              incit&eacute; &agrave; op&eacute;rer le pied-bot</a> <br>
+              114 - <a class="txtnoir" href="roman_visuep_rep_308.html">Op&eacute;ration 
+              du pied-bot</a> <br>
+              115 - <a class="txtnoir" href="roman_visuep_rep_311.html">&Eacute;chec 
+              de l'op&eacute;ration</a><br>
+              116 - <a class="txtnoir" href="roman_visuep_rep_313.html">L'arriv&eacute;e 
+              du docteur Canivet</a><br>
+              117 - <a class="txtnoir" href="roman_visuep_rep_315.html">Pr&eacute;paratifs 
+              de l'amputation</a> <br>
+              118 - <a class="txtnoir" href="roman_visuep_rep_317.html">Col&egrave;re 
+              d'Emma contre Charles</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_319.html">Chapitre 
+              12</a><br>
+              119 - <a class="txtnoir" href="roman_visuep_rep_319.html">Reprise 
+              de la liaison avec Rodolphe</a><br>
+              120 - <a class="txtnoir" href="roman_visuep_rep_321.html">Coquetterie 
+              d'Emma et fascination de Justin</a> <br>
+              121 - <a class="txtnoir" href="roman_visuep_rep_323.html">Lheureux 
+              pr&eacute;sente la premi&egrave;re facture</a> <br>
+              122 - <a class="txtnoir" href="roman_visuep_rep_325.html">Rodolphe 
+              trouve Emma envahissante</a> <br>
+              123 - <a class="txtnoir" href="roman_visuep_rep_327.html">Rodolphe 
+              rend Emma impudique</a> <br>
+              124 - <a class="txtnoir" href="roman_visuep_rep_329.html">Emma veut 
+              s'enfuir</a><br>
+              125 - <a class="txtnoir" href="roman_visuep_rep_331.html">R&ecirc;ves 
+              d'avenir de Charles. R&ecirc;ves exotiques d'Emma </a> <br>
+              126 - <a class="txtnoir" href="roman_visuep_rep_333.html">Pr&eacute;paratifs 
+              pour l'enl&egrave;vement</a> <br>
+              127 - <a class="txtnoir" href="roman_visuep_rep_335.html">Rodolphe 
+              d&eacute;cide de rompre</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_337.html">Chapitre 
+              13</a><br>
+              128 - <a class="txtnoir" href="roman_visuep_rep_337.html">Lettre 
+              de rupture de Rodolphe </a><br>
+              129 - <a class="txtnoir" href="roman_visuep_rep_340.html">Emma re&ccedil;oit 
+              la lettre de rupture</a><br>
+              130 - <a class="txtnoir" href="roman_visuep_rep_342.html">Maladie 
+              d'Emma </a> </font><br>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_347.html">Chapitre 
+              14</a><br>
+              131 - <a class="txtnoir" href="roman_visuep_rep_347.html">Embarras 
+              financiers de Charles</a> <br>
+              132 - <a class="txtnoir" href="roman_visuep_rep_349.html">Crise 
+              religieuse d'Emma</a><br>
+              133 - <a class="txtnoir" href="roman_visuep_rep_353.html">Les jouets 
+              des enfants Homais</a><br>
+              134 - <a class="txtnoir" href="roman_visuep_rep_355.html">R&eacute;tablissement 
+              d'Emma</a><br>
+              135 - <a class="txtnoir" href="roman_visuep_rep_357.html">Discussion 
+              sur le th&eacute;&acirc;tre</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_360.html">Chapitre 
+              15</a><br>
+              136 - <a class="txtnoir" href="roman_visuep_rep_360.html">L'op&eacute;ra 
+              <i>Lucie de Lammermoor</i></a> <br>
+              137 - <a class="txtnoir" href="roman_visuep_rep_366.html">L'entr&eacute;e 
+              de L&eacute;on </a><br>
+              <br>
+              </font></p></td>
+          <td valign="bottom"><a href="#haut"><font face="Times New Roman" size="3"><img border="0" src="images/f_haut.gif" width="12" height="12" /></font></a></td>
+        </tr>
+        <tr> 
+          <td> <p><a name="partie3" id="partie3"></a> <font class="txtnoir"> <b><a class="txtnoir" href="roman_visuep_rep_369.html">Troisi&egrave;me 
+              partie</a></b></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_369.html">Chapitre 
+              1</a><br>
+              138 - <a class="txtnoir" href="roman_visuep_rep_369.html">Retrouvailles 
+              avec L&eacute;on</a><br>
+              139 - <a class="txtnoir" href="roman_visuep_rep_370.html">Visite 
+              de L&eacute;on &agrave; l'h&ocirc;tel d'Emma</a> <br>
+              140 - <a class="txtnoir" href="roman_visuep_rep_371.html">Emma et 
+              L&eacute;on reviennent sur leur pass&eacute;</a> <br>
+              141 - <a class="txtnoir" href="roman_visuep_rep_374.html">D&eacute;claration 
+              de L&eacute;on</a> <br>
+              142 - <a class="txtnoir" href="roman_visuep_rep_376.html">Rendez-vous 
+              &agrave; la cath&eacute;drale</a> <br>
+              143 - <a class="txtnoir" href="roman_visuep_rep_378.html">L&eacute;on 
+              attend Emma &agrave; la cath&eacute;drale</a> <br>
+              144 - <a class="txtnoir" href="roman_visuep_rep_380.html">Visite 
+              de la cath&eacute;drale</a><br>
+              145 - <a class="txtnoir" href="roman_visuep_rep_383.html">Le fiacre 
+              </a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_385.html">Chapitre 
+              2</a><br>
+              146 - <a class="txtnoir" href="roman_visuep_rep_385.html">Retour 
+              &agrave; Yonville</a> <br>
+              147 - <a class="txtnoir" href="roman_visuep_rep_387.html">Col&egrave;re 
+              de Homais contre Justin</a> <br>
+              148 - <a class="txtnoir" href="roman_visuep_rep_389.html">Annonce 
+              de la mort du p&egrave;re Bovary</a> <br>
+              149 - <a class="txtnoir" href="roman_visuep_rep_392.html">Lheureux 
+              sugg&egrave;re la procuration</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_394.html">Chapitre 
+              3</a><br>
+              150 - <a class="txtnoir" href="roman_visuep_rep_394.html">Lune de 
+              miel &agrave; Rouen</a> <br>
+              151 - <a class="txtnoir" href="roman_visuep_rep_396.html">Promenade 
+              en barque</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_398.html">Chapitre 
+              4</a><br>
+              152 - <a class="txtnoir" href="roman_visuep_rep_398.html">Retour 
+              de L&eacute;on &agrave; Yonville</a><br>
+              153 - <a class="txtnoir" href="roman_visuep_rep_399.html">Le&ccedil;ons 
+              de piano &agrave; Rouen</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_401.html">Chapitre 
+              5</a><br>
+              154 - <a class="txtnoir" href="roman_visuep_rep_401.html">Description 
+              de Rouen</a><br>
+              155 - <a class="txtnoir" href="roman_visuep_rep_404.html">Journ&eacute;e 
+              d'amour &agrave; l'h&ocirc;tel </a><br>
+              156 - <a class="txtnoir" href="roman_visuep_rep_406.html">Emma quitte 
+              Rouen</a><br>
+              157 - <a class="txtnoir" href="roman_visuep_rep_407.html">L'aveugle</a><br>
+              158 - <a class="txtnoir" href="roman_visuep_rep_408.html">La tristesse 
+              des lendemains</a> <br>
+              159 - <a class="txtnoir" href="roman_visuep_rep_410.html">Le professeur 
+              de piano</a> <br>
+              160 - <a class="txtnoir" href="roman_visuep_rep_411.html">L'amour 
+              du mensonge</a> <br>
+              161 - <a class="txtnoir" href="roman_visuep_rep_412.html">Lheureux 
+              fait signer un billet &agrave; ordre </a><br>
+              162 - <a class="txtnoir" href="roman_visuep_rep_415.html">Charles 
+              ne trouve pas Emma &agrave; Rouen</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_418.html">Chapitre 
+              6</a><br>
+              163 - <a class="txtnoir" href="roman_visuep_rep_418.html">L&eacute;on 
+              domin&eacute; par Emma</a> <br>
+              164 - <a class="txtnoir" href="roman_visuep_rep_419.html">Homais 
+              accapare L&eacute;on &agrave; Rouen</a>.<br>
+              165 - <a class="txtnoir" href="roman_visuep_rep_421.html">Col&egrave;re 
+              d'Emma contre L&eacute;on</a> <br>
+              166 - <a class="txtnoir" href="roman_visuep_rep_422.html">Emma se 
+              d&eacute;tache de L&eacute;on</a><br>
+              167 - <a class="txtnoir" href="roman_visuep_rep_425.html">Lheureux 
+              aggrave la situation financi&egrave;re</a> <br>
+              168 - <a class="txtnoir" href="roman_visuep_rep_428.html">D&eacute;gradation 
+              de la liaison Emma - L&eacute;on</a><br>
+              169 - <a class="txtnoir" href="roman_visuep_rep_431.html">Bal de 
+              la mi-car&ecirc;me </a><br>
+              170 - <a class="txtnoir" href="roman_visuep_rep_433.html">Visite 
+              &agrave; Lheureux pour &eacute;viter la saisie</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_435.html">Chapitre 
+              7</a><br>
+              171 - <a class="txtnoir" href="roman_visuep_rep_435.html">Les huissiers 
+              font l'inventaire</a> <br>
+              172 - <a class="txtnoir" href="roman_visuep_rep_437.html">L&eacute;on 
+              se d&eacute;robe &agrave; la demande d'argent</a> <br>
+              173 - <a class="txtnoir" href="roman_visuep_rep_438.html">Retour 
+              avec Homais dans l'Hirondelle</a> <br>
+              174 - <a class="txtnoir" href="roman_visuep_rep_441.html">D&eacute;marche 
+              aupr&egrave;s du notaire Guillaumin</a> <br>
+              175 - <a class="txtnoir" href="roman_visuep_rep_443.html">Guillaumin 
+              tente d'abuser d'Emma</a> <br>
+              176 - <a class="txtnoir" href="roman_visuep_rep_445.html">Visite 
+              &agrave; Binet et rumeurs</a> <br>
+              177 - <a class="txtnoir" href="roman_visuep_rep_447.html">Emma cherche 
+              refuge chez la nourrice</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_449.html">Chapitre 
+              8</a><br>
+              178 - <a class="txtnoir" href="roman_visuep_rep_449.html">Ultime 
+              visite &agrave; Rodolphe</a> <br>
+              179 - <a class="txtnoir" href="roman_visuep_rep_451.html">Rodolphe 
+              refuse de lui donner de l'argent</a><br>
+              180 - <a class="txtnoir" href="roman_visuep_rep_453.html">Hallucinations 
+              d'Emma - arsenic</a> <br>
+              181 - <a class="txtnoir" href="roman_visuep_rep_455.html">Agonie</a><br>
+              182 - <a class="txtnoir" href="roman_visuep_rep_457.html">Arriv&eacute;e 
+              du docteur Canivet </a><br>
+              183 - <a class="txtnoir" href="roman_visuep_rep_459.html">Arriv&eacute;e 
+              du docteur Larivi&egrave;re</a> <br>
+              184 - <a class="txtnoir" href="roman_visuep_rep_460.html">Homais 
+              pontifie devant Larivi&egrave;re</a> <br>
+              185 - <a class="txtnoir" href="roman_visuep_rep_462.html">Extr&ecirc;me-onction</a><br>
+              186 - <a class="txtnoir" href="roman_visuep_rep_464.html">La mort 
+              d'Emma</a></font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_466.html"> 
+              Chapitre 9</a><br>
+              187 - <a class="txtnoir" href="roman_visuep_rep_466.html"> Veill&eacute;e 
+              fun&egrave;bre</a><br>
+              188 - <a class="txtnoir" href="roman_visuep_rep_468.html"> Visites 
+              et toilette fun&egrave;bre </a><br>
+              189 - <a class="txtnoir" href="roman_visuep_rep_470.html"> Homais 
+              et le cur&eacute; face &agrave; face</a> <br>
+              190 - <a class="txtnoir" href="roman_visuep_rep_472.html"> Arriv&eacute;e 
+              du p&egrave;re Rouault</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_474.html"> 
+              Chapitre 10</a><br>
+              191 - <a class="txtnoir" href="roman_visuep_rep_474.html"> Obs&egrave;ques 
+              religieuses et cort&egrave;ge fun&egrave;bre</a> <br>
+              192 - <a class="txtnoir" href="roman_visuep_rep_476.html"> Apr&egrave;s 
+              l'enterrement</a> </font></p>
+            <p><font class="txtnoir"><a class="txtnoir" href="roman_visuep_rep_478.html">Chapitre 
+              11</a><br>
+              193 - <a class="txtnoir" href="roman_visuep_rep_478.html"> Dettes 
+              &agrave; payer et d&eacute;couverte de la lettre de Rodolphe</a> 
+              <br>
+              194 - <a class="txtnoir" href="roman_visuep_rep_480.html"> Prosp&eacute;rit&eacute; 
+              de Homais</a> <br>
+              195 - <a class="txtnoir" href="roman_visuep_rep_483.html"> Homais 
+              demande la croix. D&eacute;sespoir de Charles</a><br>
+              196 - <a class="txtnoir" href="roman_visuep_rep_485.html"> Mort 
+              de Charles</a> </font></p></td>
+          <td valign="bottom"><a href="#haut"><font face="Times New Roman" size="3"><img border="0" src="images/f_haut.gif" width="12" height="12" /></font></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</td></tr></table></div>
+</td></tr></table>
+</form></body>
+<script>init();
+menus[ 0 ].items[ 00 ].onmouseover();
+menus[ 0 ].items[ 00 ].onmouseup(); menus[ 01 ].items[ 01 ].onmouseover();
+</script>
+</html>

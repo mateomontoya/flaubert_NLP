@@ -1,0 +1,18 @@
+bien    Part of Speech Tag: bien ADV    Entity Type:    Sentiment Score/magnitude: 0.3/0.3
+Bien    Part of Speech Tag: Bien ADV    Entity Type:    Sentiment Score/magnitude: 0.7/0.7
+Mais    Part of Speech Tag: Mais CONJ    Entity Type:    Sentiment Score/magnitude: 0.5/0.5
+Donc    Part of Speech Tag: Donc ADV    Entity Type:    Sentiment Score/magnitude: 0.0/0.0
+Emma    Part of Speech Tag: Emma NOUN    Entity Type: Emma PERSON    Sentiment Score/magnitude: 0.1/0.1
+Bovary    Part of Speech Tag: Bovary NOUN    Entity Type: Bovary OTHER    Sentiment Score/magnitude: 0.0/0.0
+tien    Part of Speech Tag: tien ADJ    Entity Type:    Sentiment Score/magnitude: 0.2/0.2
+Charles    Part of Speech Tag: Charles NOUN    Entity Type: Charles PERSON    Sentiment Score/magnitude: 0.0/0.0
+Maintenant    Part of Speech Tag: Maintenant ADV    Entity Type:    Sentiment Score/magnitude: 0.6/0.6
+vite    Part of Speech Tag: vite ADV    Entity Type:    Sentiment Score/magnitude: 0.1/0.1
+savent    Part of Speech Tag: savent VERB    Entity Type:    Sentiment Score/magnitude: 0.1/0.1
+doucement    Part of Speech Tag: doucement ADV    Entity Type:    Sentiment Score/magnitude: 0.0/0.0
+amour    Part of Speech Tag: amour NOUN    Entity Type: amour OTHER    Sentiment Score/magnitude: 0.1/0.1
+trop    Part of Speech Tag: trop ADV    Entity Type:    Sentiment Score/magnitude: 0.0/0.0
+femme    Part of Speech Tag: femme NOUN    Entity Type: femme PERSON    Sentiment Score/magnitude: 0.1/0.1
+nvlles    Part of Speech Tag: nvlles NUM    Entity Type:    Sentiment Score/magnitude: 0.0/0.0
+argument    Part of Speech Tag: argument NOUN    Entity Type: argument OTHER    Sentiment Score/magnitude: 0.1/0.1
+asperges    Part of Speech Tag: asperges NOUN    Entity Type: asperges CONSUMER_GOOD    Sentiment Score/magnitude: 0.0/0.0

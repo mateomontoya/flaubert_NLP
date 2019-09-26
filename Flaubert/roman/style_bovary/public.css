@@ -1,0 +1,165 @@
+
+.bidon {
+  	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 14px; VERTICAL-ALIGN: center; TEXT-ALIGN: left;
+  	COLOR: #00000; background-color: #D6DCE2;    
+}
+
+.body { background-color: #EFEBE7; }
+
+* html input { overflow: visible; padding:0px 5px }
+a { outline-style:none; }
+	
+.libfeuillet {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif; font-weight:normal;
+	FONT-SIZE: 10px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; }
+
+.tableau {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: left; 
+	background-color: #FCFBDF; color: #000000; background-image:none }	
+	
+.tabnoir {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: left; 
+	background-color: #F5F4F4; color: #000000; background-image:none }	
+
+.tabnoir-d {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: right; 
+	background-color: #F5F4F4; color: #000000; background-image:none }		
+
+.tabnoir-dg {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif; font-weight:bold;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: right; 
+	background-color: #F5F4F4; color: #000000; background-image:none }		
+	
+.tabnoir-c {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: center; 
+	background-color: #F5F4F4; color: #000000; background-image:none }	
+
+.tabnoir-cg {
+	FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif; font-weight:bold;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: center; 
+	background-color: #F5F4F4; color: #000000; background-image:none }	
+}
+
+.td2 {
+  FONT-FAMILY: Verdana, Helvetica,  arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: left;
+ 	COLOR: #00000; background-color: #CCD6DD;   
+}
+
+INPUT, SELECT, TEXTAREA, TEXT {
+    FONT-FAMILY: Verdana, Helvetica, arial, Geneva, SansSerif;
+    FONT-SIZE: 11px; LINE-HEIGHT: 13px; text-indent: 0px;
+    COLOR: #00000; background-color: #FFFFFF; border: 1px solid #D0E2EC; 
+}
+
+.submitte {
+    FONT-FAMILY: Verdana, Helvetica, arial, Geneva, SansSerif;
+    FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center;
+    COLOR: #00000; background-color: #FFFFFF; border: 1px solid #D0E2EC;
+}
+
+.inputd { font-family: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right; 
+	font-size: 11px; color: #666666; background-color: #FFFFFF; border: 1px solid #D0C2CC; text-indent: 0px; }
+.inputc { font-family: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center;
+	font-size: 11px; color: #666666; background-color: #FFFFFF; border: 1px solid #D0C2CC; text-indent: 0px;}
+	
+.t { FONT-FAMILY: Arial, Geneva, SansSerif; font-weight:normal;
+    FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: left; COLOR: #00000;  }
+.d { FONT-FAMILY: Arial, Geneva, SansSerif;
+   FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: right; COLOR: #00000; }
+.c { FONT-FAMILY: Arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center; COLOR: #00000; }
+
+.tg { FONT-FAMILY: Arial, Geneva, SansSerif; font-weight:bold;
+    FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: left; COLOR: #00000;  }
+.dg { FONT-FAMILY: Arial, Geneva, SansSerif; font-weight:bold;
+   FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: right; COLOR: #00000; }
+.cg { FONT-FAMILY: Arial, Geneva, SansSerif; font-weight:bold;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center; COLOR: #00000; }
+	
+.tbloc {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px; LINE-HEIGHT: 16px; TEXT-ALIGN: center; COLOR: #FFFFFF;
+	font-weight:bold; background-color: #8298AE;
+}
+
+.erreur {
+	FONT-FAMILY: Verdana, Helvetica, arial, Geneva, SansSerif;
+	FONT-SIZE: 11px; LINE-HEIGHT: 13px; VERTICAL-ALIGN: center; TEXT-ALIGN: center; 
+	background-color: #EFEBE7; color: #ff0000; background-image:none }	
+	
+A:link { COLOR: #000000; text-decoration: none;  FONT-WEIGHT:bold }
+A:visited { COLOR: #000000; text-decoration: none;  FONT-WEIGHT:bold  }
+A:active { COLOR: #000000; text-decoration: none;  FONT-WEIGHT:bold } 
+A:hover { COLOR: #000000; text-decoration: underline;  FONT-WEIGHT:bold } 
+
+.liste { 
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: left;
+  COLOR: #000000; background-color: #D6DCE2 }
+.listecentre {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center;
+	COLOR: #000000; background-color: #D6DCE2 }
+.listedroite {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: right;
+	COLOR: #000000; background-color: #D6DCE2 }
+	
+.listebascule {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: left;
+  COLOR: #000000; background-color: #EEEEEE }
+.listebasculecentre {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center;
+  COLOR: #000000; background-color: #EEEEEE }
+.listebasculedroite {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: right;
+  COLOR: #000000; background-color: #EEEEEE }
+
+.listesel {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: left;
+  COLOR: #FFFFFF; background-color: #8298AE }
+.listeselcentre {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: center;
+  COLOR: #FFFFFF; background-color: #8298AE }
+.listeseldroite {
+	FONT-FAMILY: Arial, Verdana, Helvetica, Geneva, SansSerif; FONT-SIZE: 11px; LINE-HEIGHT: 13px; TEXT-ALIGN: right;
+  COLOR: #FFFFFF; background-color: #8298AE }
+
+.h_tr_fich { FONT-FAMILY: verdana; text-align:left; font-size:12px; line-height:14px; padding: 10px 0px; width:760px; font-weight:normal }
+
+s { font-style:strike; }  .biffure { background-color: #ffffcc; } .censure { background-color: #C9D3B4; } 
+.crayon { color:#A49F9D; } .incertain { background-color:#E2E1E0; } .ital-noir { font-style:italic; } .bleu-droit { color:#3333cc; } 
+.note-regie { color: #940000; } .relecture { background-color: #FFCC99; }
+
+div#M { text-align:center; }
+div#M td { font-family: Times New Roman, Times, serif; font-size:13px; line-height:15px; }
+div#M tr { vertical-align: top; padding:0px 5px;} 
+div#M td { vertical-align: top; padding:0px 5px;} 
+div#M table { border:0px; padding:0px; width:760px; }
+div#M i { font-style:italic; color:#3333cc; }
+
+div#P { text-align:center; }
+div#P td { font-family: Times New Roman, Times, serif; font-size:13px; line-height:15px; }
+div#P tr { vertical-align:top; padding:0px 5px;}  
+div#P td { vertical-align:top; padding:0px 5px;} 
+div#P table { border:0px; padding:0px; width:1240px; }
+div#P i { font-style:italic; color:#3333cc; }
+
+div#F { text-align:center; }
+div#F td { font-family: Times New Roman, Times, serif; font-size:13px; line-height:15px; }
+div#F tr { vertical-align: top; padding:0px 5px; } 
+div#F td { vertical-align: top; padding:0px 5px; } 
+div#F table { border:0px; padding:0px; width:760px; }
+div#F i { font-style:italic; color:#3333cc; }
+
+.sep { font-family: arial; font-size:11px; line-height:15px; padding:0px 5px; background-color:#adb5e9; width:760px; height:17px; text-align:left; vertical-align:top; }
+.sep-d { font-family: arial; font-size:11px; line-height:15px; padding:0px 5px; background-color:#adb5e9; height:17px; text-align:right; vertical-align:top; }
+.sep-l { font-family: arial; font-size:11px; line-height:15px; padding:0px 5px; background-color:#adb5e9; height:17px; text-align:left; vertical-align:top; }
+.sep-fin { background-color:#adb5e9; width:760px; height:2px; line-height: 2px; font-size: 2px; text-align:center; margin:5px 0px 0px 0px; }
+.jaune { background-color:#ebd223 }
+
+#cartouche { color:#000; margin:10px 0px 15px 0px; background-color:#F5E6AB;text-align:left;
+	font-weight:normal; padding:5px 20px; position:relative; font-size:12px; width:760px }

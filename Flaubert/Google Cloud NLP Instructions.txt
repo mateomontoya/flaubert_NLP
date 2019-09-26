@@ -1,0 +1,54 @@
+https://cloud.google.com/natural-language/docs/quickstart-client-libraries#client-libraries-usage-python
+http://www.bovary.fr/roman_visuep.php?rep=001#001
+
+Download bovary html novle from above locations using website downloader https://www.waybackmachinedownloader.com/website-downloader-online/
+
+pip install nltk
+python >> nltk.download() # In the window select all packages and download
+
+pip install --upgrade google-cloud-language
+
+pip install google.cloud
+pip install google.cloud.language
+
+
+Create google cloud account - done using kosmosisinc@gmail.com
+
+Environment variable: 
+
+GOOGLE_APPLICATION_CREDENTIALS=c:\Python\419be31e37f6.json
+
+
+
+Here's how to understand and make this work:
+
+Attached are 4 files:
+1. Partofspeech2.py: This is the program that takes input a file with a list of words or phrases.
+2. additions2.txt is the input file.
+3. pos2.txt is the output file.
+4. Google private key JSON file
+
+
+To setup google NLP:
+Here are google instructions which I have already executed and setup the account: https://cloud.google.com/natural-language/docs/quickstart-client-libraries#client-libraries-usage-python
+
+Step 1: Install google libraries under Python 3:
+pip install --upgrade google-cloud-language
+pip install google.cloud
+pip install google.cloud.language
+
+
+Step 2: Nothing to do for you
+Create google cloud account - done using kosmosisinc@gmail.com
+
+Step 3:
+Copy the JSON private key file in the location where your program is and setup a windows local environment variable pointing to that file
+Environment variable: GOOGLE_APPLICATION_CREDENTIALS=c:\Python\419be31e37f6.json
+
+Step 4: 
+Copy the 4 files listed above to a folder: e.g. c:\Python
+
+Step 5:
+Run the Partofspeech2.py program
+c:\Python\python partofspeech2.py
+Check the output file pos2.txt
