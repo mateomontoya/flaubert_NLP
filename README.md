@@ -2,6 +2,12 @@
 
 A Digital Humanities and Natural Language Processing project working on the 8 different drafts on Flaubert's Madame Bovary and assessing changes in style, grammar, and word choice.
 
+Principal Investigator: Ramona Naddaff
+
+Research Assistant: Mateo Montoya
+
+UC Berkeley D-Lab Consultant: Adam Anderson
+
 ## The Data
 
 The data was gathered by Geoff Bacon. Full documentation on its collection is found in data/documentation
